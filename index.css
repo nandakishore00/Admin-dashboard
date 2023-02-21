@@ -42,6 +42,11 @@ padding-right:15px
     background-color: white;
     grid-column: 2/8;
     margin:10px 0px 0px 10px ;
+    display:flex;
+    flex-direction: column;
+    
+}
+.first-row,.second-row{
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -62,7 +67,28 @@ padding-right:15px
     width:25%;
     justify-content: space-around;
     align-items: center;
+    margin-right: 10px;
     
+}
+.second-row{
+    margin-top:20px
+}
+
+.buttons{
+    margin-right:20px;
+}
+input[type='button']{
+    border-radius:30px;
+    width:80px;
+    padding:5px;
+    margin:0 6px;
+    background-color: rgb(10, 169, 222);
+    font-family: 'Roboto', sans-serif;
+    border:1px solid rgb(10, 169, 222);
+    color:white;
+}
+input[type='button']:hover{
+    background-color:rgb(25, 121, 154);
 }
 /*Styling for Cards section*/
 .project-cards{
