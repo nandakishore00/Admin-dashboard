@@ -5,22 +5,25 @@ height:100%;
 .container{
 display: grid;
 height:100%;
+
 grid-template-columns: repeat(6,1fr);
-grid-template-rows: repeat(8,1fr);
+
 }
 /*Styling for Dashboard section */
 .dashboard{
  background-color: rgb(48, 189, 236);
  grid-column: 1/2; 
- grid-row:1/9;
- color:white;
+ color:white; 
  font-family: 'Roboto', sans-serif;
+ height:100%;
 }
 
-p{
-padding:15px;
+.heading{
 font-size:24px;
+padding:30px 15px ;
+margin:0px;
 font-weight: 1000;
+
 }
 ul{
     padding-left:0px;
@@ -38,9 +41,13 @@ li{
 padding-right:15px    
 }
 /*Styling for Header section */
+.part-two{
+    grid-column: 2/8;
+    display:flex;
+    flex-direction: column;
+}
 .header{
     background-color: white;
-    grid-column: 2/8;
     margin:10px 0px 0px 10px ;
     display:flex;
     flex-direction: column;
@@ -71,9 +78,13 @@ padding-right:15px
     
 }
 .second-row{
-    margin-top:20px
-}
+    margin:15px 20px 10px 30px;
 
+}
+.greetings{
+    display:flex;
+    align-items: center;
+}
 .buttons{
     margin-right:20px;
 }
@@ -94,5 +105,5 @@ input[type='button']:hover{
 .project-cards{
     background: rgb(206, 208, 208);
     grid-column: 2/8;
-    grid-row:3/4;
+    flex-grow:1;
 }
