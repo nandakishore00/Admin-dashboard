@@ -84,6 +84,15 @@ padding-right:15px
 .greetings{
     display:flex;
     align-items: center;
+    justify-content: center;
+
+}
+.text{
+    padding-top:25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    text-align: left;
+    line-height: 0.4;
 }
 .buttons{
     margin-right:20px;
