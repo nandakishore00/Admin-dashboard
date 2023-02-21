@@ -1,0 +1,25 @@
+*{
+margin:0px;
+height: 100%;
+}
+.container{
+display: grid;
+height: 100%;
+grid-template-columns: repeat(6,1fr);
+grid-template-rows: repeat(8,1fr);
+}
+.dashboard{
+ background-color: rgb(99, 201, 235);
+ grid-column: 1/2; 
+ grid-row:1/9;
+}
+.header{
+    background-color: lightcoral;
+    grid-column: 2/8;
+    grid-row: 1/3;
+}
+.project-cards{
+    background: rgb(238, 246, 246);
+    grid-column: 2/8;
+    grid-row:3/9;
+}
