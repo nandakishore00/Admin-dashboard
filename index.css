@@ -8,28 +8,19 @@ height:100%;
 grid-template-columns: repeat(6,1fr);
 grid-template-rows: repeat(8,1fr);
 }
+/*Styling for Dashboard section */
 .dashboard{
  background-color: rgb(48, 189, 236);
- grid-column: 1/3; 
+ grid-column: 1/2; 
  grid-row:1/9;
  color:white;
  font-family: 'Roboto', sans-serif;
 }
-.header{
-    background-color: lightcoral;
-    grid-column: 3/8;
-    grid-row: 1/3;
 
-}
-.project-cards{
-    background: rgb(238, 246, 246);
-    grid-column: 3/8;
-    grid-row:3/9;
-}
 p{
 padding:15px;
 font-size:24px;
-font-weight: 900;
+font-weight: 1000;
 }
 ul{
     padding-left:0px;
@@ -39,7 +30,36 @@ ul{
 li{
     
     padding:8px 20px;
+    font-size:18px;
+    font-weight: 500;
+
 }
 .icon{
 padding-right:15px    
+}
+/*Styling for Header section */
+.header{
+    background-color: rgb(249, 248, 248);
+    grid-column: 2/8;
+    grid-row: 1/3;
+    margin:20px 35px;
+    display: flex;
+    justify-content:space-between;
+}
+.search{
+    width:60%
+}
+.search-bar{
+ border-radius:30px;
+ background-color: rgb(214, 212, 212);
+ border:1px solid rgb(212, 211, 211); 
+ width:90%;
+ padding:5px;
+
+}
+/*Styling for Cards section*/
+.project-cards{
+    background: rgb(206, 208, 208);
+    grid-column: 2/8;
+    grid-row:3/4;
 }
