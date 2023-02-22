@@ -119,29 +119,40 @@ input[type='button']:hover{
     grid-column: 2/8;
     flex-grow:1;
     width:100vw;
+    padding:15px;
+    font-family: 'Roboto', sans-serif;
 }
 .projects{
     margin: 10px;
-    font-family: 'Roboto', sans-serif;
+
     width:70%;
 }
 .hard-projects,.medium-projects,.simple-projects{
 display:flex;
 }
-.card-items{
+.colour{
+    background-color: orange;
+    width:22px;
+    border-top-left-radius: 15px ;
+    border-bottom-left-radius:15px;
+
+}.card-items{
     width:65%;
-    border:3px solid black;
+    border:1px solid black;
+    border-radius:10px;
     margin:10px;
-    padding:10px;
+    display:flex;
+
 }
-h4{
-    margin:5px;
+.card{
+    padding:30px 10px 20px 10px;
 }
 .title{
+    margin:5px;
 
 }
 .content{
- margin-bottom:40px;
+ padding:0px 0px 70px 00px;
 }
 .footer{
     display: flex;
